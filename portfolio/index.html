@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hasan Kaya'nın web tabanlı yazılım projelerini, yetkinliklerini ve geliştirdiği sistemleri gösteren portfolyo sitesi."
+    />
+    <title>Hasan Kaya | Yazılım Portfolyosu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="header" id="top">
+        <nav class="navbar container">
+          <a class="brand" href="#top">
+            <span class="brand-mark">HK</span>
+            <span class="brand-text">Hasan Kaya</span>
+          </a>
+
+          <button class="nav-toggle" type="button" aria-label="Menüyü aç">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="nav-links">
+            <a href="#projects">Projeler</a>
+            <a href="#services">Hizmetler</a>
+            <a href="#about">Hakkımda</a>
+            <a href="#contact">İletişim</a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="container hero-grid">
+            <div class="hero-copy reveal">
+              <p class="eyebrow">Hasan Kaya</p>
+              <h1>Yazılım projeleri ile işinizi büyütün</h1>
+              <p class="hero-text">
+                CRM, randevu ve otomasyon sistemleri geliştiriyorum
+              </p>
+              <div class="hero-actions">
+                <a class="button button-primary" href="#projects"
+                  >Projeleri Gör</a
+                >
+                <a class="button button-secondary" href="#contact"
+                  >İletişime Geç</a
+                >
+              </div>
+              <ul class="hero-points">
+                <li>Modern web arayüzleri</li>
+                <li>Gerçek iş akışlarına uygun sistem kurgusu</li>
+                <li>Performans ve kullanılabilirlik odaklı geliştirme</li>
+              </ul>
+            </div>
+
+            <div class="hero-panel reveal delay-1">
+              <div class="hero-card hero-card-main">
+                <span class="card-chip">Portfolyo Özeti</span>
+                <h2>Projelerim ve Çalışmalarım</h2>
+                <p>
+                  Farklı alanlarda geliştirdiğim yazılım projelerini ve bu
+                  süreçte edindiğim teknik yaklaşımı burada paylaşıyorum.
+                </p>
+                <div class="metric-row">
+                  <div>
+                    <strong>Öne çıkan</strong>
+                    <span>Projeler</span>
+                  </div>
+                  <div>
+                    <strong>Modern</strong>
+                    <span>Web arayüzleri</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section-projects" id="projects">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="eyebrow">Projeler</p>
+              <h2>Projelerim</h2>
+              <p>
+                Proje detayları, kullanılan yapı ve öne çıkan özelliklerle
+                birlikte burada yer alıyor.
+              </p>
+            </div>
+
+            <div class="project-grid">
+              <article class="project-card reveal">
+                <div class="project-top">
+                  <span class="project-badge">CRM</span>
+                  <h3>ClientHub</h3>
+                  <p>
+                    Müşteri iletişimini, geri dönüş süreçlerini ve ekip
+                    aktivitelerini tek panelde toplayan CRM çözümü.
+                  </p>
+                </div>
+                <ul class="feature-list">
+                  <li>Müşteri takibi</li>
+                  <li>Geri kazanım</li>
+                  <li>Aktivite yönetimi</li>
+                </ul>
+                <div class="project-actions">
+                  <a
+                    class="button button-primary"
+                    href="#"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Demo</a
+                  >
+                  <a
+                    class="button button-secondary"
+                    href="https://github.com/kaya-hasan/clienthub"
+                    target="_blank"
+                    rel="noreferrer"
+                    >GitHub</a
+                  >
+                </div>
+              </article>
+
+              <article class="project-card reveal delay-1">
+                <div class="project-top">
+                  <span class="project-badge">Randevu</span>
+                  <h3>Appointly</h3>
+                  <p>
+                    Hizmet veren işletmeler için çakışmasız planlama ve müşteri
+                    bağlantısını kolaylaştıran randevu sistemi.
+                  </p>
+                </div>
+                <ul class="feature-list">
+                  <li>Randevu sistemi</li>
+                  <li>Saat çakışma kontrolü</li>
+                  <li>Müşteri bağlantısı</li>
+                </ul>
+                <div class="project-actions">
+                  <a
+                    class="button button-primary"
+                    href="#"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Demo</a
+                  >
+                  <a
+                    class="button button-secondary"
+                    href="https://github.com/kaya-hasan/appointly"
+                    target="_blank"
+                    rel="noreferrer"
+                    >GitHub</a
+                  >
+                </div>
+              </article>
+
+              <article class="project-card reveal delay-2">
+                <div class="project-top">
+                  <span class="project-badge">Frontend</span>
+                  <h3>LoLChamps</h3>
+                  <p>
+                    Harici API ile beslenen, arama ve filtreleme odaklı şampiyon
+                    keşif arayüzü.
+                  </p>
+                </div>
+                <ul class="feature-list">
+                  <li>Şampiyon listeleme</li>
+                  <li>Arama ve filtreleme</li>
+                  <li>API kullanımı</li>
+                </ul>
+                <div class="project-actions">
+                  <a
+                    class="button button-primary"
+                    href="#"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Demo</a
+                  >
+                  <a
+                    class="button button-secondary"
+                    href="https://github.com/kaya-hasan/lolchamps"
+                    target="_blank"
+                    rel="noreferrer"
+                    >GitHub</a
+                  >
+                </div>
+              </article>
+
+              <article class="project-card reveal delay-3">
+                <div class="project-top">
+                  <span class="project-badge">Stok</span>
+                  <h3>Hasankaya Inventory</h3>
+                  <p>
+                    Ürün hareketlerini ve stok süreçlerini basit CRUD mantığıyla
+                    yöneten operasyon paneli.
+                  </p>
+                </div>
+                <ul class="feature-list">
+                  <li>Stok takibi</li>
+                  <li>Ürün yönetimi</li>
+                  <li>CRUD işlemleri</li>
+                </ul>
+                <div class="project-actions">
+                  <a
+                    class="button button-primary"
+                    href="#"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Demo</a
+                  >
+                  <a
+                    class="button button-secondary"
+                    href="https://github.com/kaya-hasan/hasankaya-inventory"
+                    target="_blank"
+                    rel="noreferrer"
+                    >GitHub</a
+                  >
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="services">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="eyebrow">Hizmetler</p>
+              <h2>İş akışına uygun özel yazılım geliştirme</h2>
+            </div>
+
+            <div class="service-grid">
+              <article class="service-card reveal">
+                <h3>CRM sistemleri</h3>
+                <p>
+                  Müşteri sürecini görünür kılan, satış takibini sadeleştiren
+                  özel CRM çözümleri.
+                </p>
+              </article>
+              <article class="service-card reveal delay-1">
+                <h3>Randevu sistemleri</h3>
+                <p>
+                  Çakışma kontrolü, müşteri bağlantısı ve kolay kullanım odaklı
+                  planlama panelleri.
+                </p>
+              </article>
+              <article class="service-card reveal delay-2">
+                <h3>Özel yazılım geliştirme</h3>
+                <p>
+                  İşletmelerin çalışma biçimine göre tasarlanan hafif, hızlı ve
+                  ölçeklenebilir sistemler.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section about-section" id="about">
+          <div class="container about-grid">
+            <div class="section-heading reveal">
+              <p class="eyebrow">Hakkımda</p>
+              <h2>
+                Yazılımı sade, işlevsel ve sürdürülebilir kurmayı önemsiyorum
+              </h2>
+              <p>
+                İşletmeler için müşteri takibi ve satış odaklı yazılım çözümleri
+                geliştiriyorum.
+              </p>
+            </div>
+
+            <div class="about-card reveal delay-1">
+              <p>
+                Kullanıcı deneyimi güçlü, performanslı ve gerçek kullanım
+                senaryolarına uygun web arayüzleri geliştirmeye odaklanıyorum.
+                Portfolyomda hem teknik yetkinliğimi hem de ürün bakış açımı
+                gösteren projeler yer alıyor.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+          <div class="container contact-grid">
+            <div class="section-heading reveal">
+              <p class="eyebrow">İletişim</p>
+              <h2>Projenizi birlikte netleştirelim</h2>
+              <p>
+                Kısa bir mesaj bırakın. İhtiyacınıza uygun sistem yapısını
+                beraber çıkaralım.
+              </p>
+            </div>
+
+            <form class="contact-form reveal delay-1">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="ornek@mail.com"
+                required
+              />
+
+              <label for="message">Mesaj</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="İhtiyacınızı kısaca yazın"
+                required
+              ></textarea>
+
+              <button class="button button-primary button-submit" type="submit">
+                Gönder
+              </button>
+              <p class="form-note" id="form-note" aria-live="polite"></p>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
