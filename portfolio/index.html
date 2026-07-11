@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Hasan Kaya'nın web tabanlı yazılım projelerini, yetkinliklerini ve geliştirdiği sistemleri gösteren portfolyo sitesi."
+      content="Hasan Kaya'nin web tabanli yazilim projelerini, yetkinliklerini ve gelistirdigi sistemleri gosteren portfolyo sitesi."
+      data-i18n-content="meta.description"
     />
-    <title>Hasan Kaya | Yazılım Portfolyosu</title>
+    <title data-i18n="meta.title">Hasan Kaya | Yazılım Portfolyosu</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -31,11 +32,20 @@
             <span></span>
           </button>
 
+          <button
+            class="language-toggle"
+            type="button"
+            aria-label="Dil değiştir"
+          >
+            <span class="language-option is-active" data-lang="tr">TR</span>
+            <span class="language-option" data-lang="en">EN</span>
+          </button>
+
           <div class="nav-links">
-            <a href="#projects">Projeler</a>
-            <a href="#services">Hizmetler</a>
-            <a href="#about">Hakkımda</a>
-            <a href="#contact">İletişim</a>
+            <a href="#projects" data-i18n="nav.projects">Projeler</a>
+            <a href="#services" data-i18n="nav.services">Hizmetler</a>
+            <a href="#about" data-i18n="nav.about">Hakkımda</a>
+            <a href="#contact" data-i18n="nav.contact">İletişim</a>
           </div>
         </nav>
       </header>
@@ -45,41 +55,41 @@
           <div class="container hero-grid">
             <div class="hero-copy reveal">
               <p class="eyebrow">Hasan Kaya</p>
-              <h1>Yazılım projeleri ile işinizi büyütün</h1>
-              <p class="hero-text">
+              <h1 data-i18n="hero.title">Yazılım projeleri ile işinizi büyütün</h1>
+              <p class="hero-text" data-i18n="hero.subtitle">
                 CRM, randevu ve otomasyon sistemleri geliştiriyorum
               </p>
               <div class="hero-actions">
-                <a class="button button-primary" href="#projects"
+                <a class="button button-primary" href="#projects" data-i18n="hero.ctaProjects"
                   >Projeleri Gör</a
                 >
-                <a class="button button-secondary" href="#contact"
+                <a class="button button-secondary" href="#contact" data-i18n="hero.ctaContact"
                   >İletişime Geç</a
                 >
               </div>
               <ul class="hero-points">
-                <li>Modern web arayüzleri</li>
-                <li>Gerçek iş akışlarına uygun sistem kurgusu</li>
-                <li>Performans ve kullanılabilirlik odaklı geliştirme</li>
+                <li data-i18n="hero.point1">Modern web arayüzleri</li>
+                <li data-i18n="hero.point2">Gerçek iş akışlarına uygun sistem kurgusu</li>
+                <li data-i18n="hero.point3">Performans ve kullanılabilirlik odaklı geliştirme</li>
               </ul>
             </div>
 
             <div class="hero-panel reveal delay-1">
               <div class="hero-card hero-card-main">
-                <span class="card-chip">Portfolyo Özeti</span>
-                <h2>Projelerim ve Çalışmalarım</h2>
-                <p>
+                <span class="card-chip" data-i18n="hero.summaryChip">Portfolyo Özeti</span>
+                <h2 data-i18n="hero.summaryTitle">Projelerim ve Çalışmalarım</h2>
+                <p data-i18n="hero.summaryText">
                   Farklı alanlarda geliştirdiğim yazılım projelerini ve bu
                   süreçte edindiğim teknik yaklaşımı burada paylaşıyorum.
                 </p>
                 <div class="metric-row">
                   <div>
-                    <strong>Öne çıkan</strong>
-                    <span>Projeler</span>
+                    <strong data-i18n="hero.metric1Strong">Öne çıkan</strong>
+                    <span data-i18n="hero.metric1Text">Projeler</span>
                   </div>
                   <div>
-                    <strong>Modern</strong>
-                    <span>Web arayüzleri</span>
+                    <strong data-i18n="hero.metric2Strong">Modern</strong>
+                    <span data-i18n="hero.metric2Text">Web arayüzleri</span>
                   </div>
                 </div>
               </div>
@@ -90,9 +100,9 @@
         <section class="section section-projects" id="projects">
           <div class="container">
             <div class="section-heading reveal">
-              <p class="eyebrow">Projeler</p>
-              <h2>Projelerim</h2>
-              <p>
+              <p class="eyebrow" data-i18n="projects.eyebrow">Projeler</p>
+              <h2 data-i18n="projects.title">Projelerim</h2>
+              <p data-i18n="projects.text">
                 Proje detayları, kullanılan yapı ve öne çıkan özelliklerle
                 birlikte burada yer alıyor.
               </p>
@@ -103,15 +113,15 @@
                 <div class="project-top">
                   <span class="project-badge">CRM</span>
                   <h3>ClientHub</h3>
-                  <p>
+                  <p data-i18n="projects.clienthub.text">
                     Müşteri iletişimini, geri dönüş süreçlerini ve ekip
                     aktivitelerini tek panelde toplayan CRM çözümü.
                   </p>
                 </div>
                 <ul class="feature-list">
-                  <li>Müşteri takibi</li>
-                  <li>Geri kazanım</li>
-                  <li>Aktivite yönetimi</li>
+                  <li data-i18n="projects.clienthub.feature1">Müşteri takibi</li>
+                  <li data-i18n="projects.clienthub.feature2">Geri kazanım</li>
+                  <li data-i18n="projects.clienthub.feature3">Aktivite yönetimi</li>
                 </ul>
                 <div class="project-actions">
                   <a
@@ -119,6 +129,7 @@
                     href="#"
                     target="_blank"
                     rel="noreferrer"
+                    data-i18n="common.demo"
                     >Demo</a
                   >
                   <a
@@ -135,15 +146,15 @@
                 <div class="project-top">
                   <span class="project-badge">Randevu</span>
                   <h3>Appointly</h3>
-                  <p>
+                  <p data-i18n="projects.appointly.text">
                     Hizmet veren işletmeler için çakışmasız planlama ve müşteri
                     bağlantısını kolaylaştıran randevu sistemi.
                   </p>
                 </div>
                 <ul class="feature-list">
-                  <li>Randevu sistemi</li>
-                  <li>Saat çakışma kontrolü</li>
-                  <li>Müşteri bağlantısı</li>
+                  <li data-i18n="projects.appointly.feature1">Randevu sistemi</li>
+                  <li data-i18n="projects.appointly.feature2">Saat çakışma kontrolü</li>
+                  <li data-i18n="projects.appointly.feature3">Müşteri bağlantısı</li>
                 </ul>
                 <div class="project-actions">
                   <a
@@ -151,6 +162,7 @@
                     href="#"
                     target="_blank"
                     rel="noreferrer"
+                    data-i18n="common.demo"
                     >Demo</a
                   >
                   <a
@@ -167,15 +179,15 @@
                 <div class="project-top">
                   <span class="project-badge">Frontend</span>
                   <h3>LoLChamps</h3>
-                  <p>
+                  <p data-i18n="projects.lolchamps.text">
                     Harici API ile beslenen, arama ve filtreleme odaklı şampiyon
                     keşif arayüzü.
                   </p>
                 </div>
                 <ul class="feature-list">
-                  <li>Şampiyon listeleme</li>
-                  <li>Arama ve filtreleme</li>
-                  <li>API kullanımı</li>
+                  <li data-i18n="projects.lolchamps.feature1">Şampiyon listeleme</li>
+                  <li data-i18n="projects.lolchamps.feature2">Arama ve filtreleme</li>
+                  <li data-i18n="projects.lolchamps.feature3">API kullanımı</li>
                 </ul>
                 <div class="project-actions">
                   <a
@@ -183,6 +195,7 @@
                     href="#"
                     target="_blank"
                     rel="noreferrer"
+                    data-i18n="common.demo"
                     >Demo</a
                   >
                   <a
@@ -199,15 +212,15 @@
                 <div class="project-top">
                   <span class="project-badge">Stok</span>
                   <h3>Hasankaya Inventory</h3>
-                  <p>
+                  <p data-i18n="projects.inventory.text">
                     Ürün hareketlerini ve stok süreçlerini basit CRUD mantığıyla
                     yöneten operasyon paneli.
                   </p>
                 </div>
                 <ul class="feature-list">
-                  <li>Stok takibi</li>
-                  <li>Ürün yönetimi</li>
-                  <li>CRUD işlemleri</li>
+                  <li data-i18n="projects.inventory.feature1">Stok takibi</li>
+                  <li data-i18n="projects.inventory.feature2">Ürün yönetimi</li>
+                  <li data-i18n="projects.inventory.feature3">CRUD işlemleri</li>
                 </ul>
                 <div class="project-actions">
                   <a
@@ -215,6 +228,7 @@
                     href="#"
                     target="_blank"
                     rel="noreferrer"
+                    data-i18n="common.demo"
                     >Demo</a
                   >
                   <a
@@ -233,28 +247,28 @@
         <section class="section" id="services">
           <div class="container">
             <div class="section-heading reveal">
-              <p class="eyebrow">Hizmetler</p>
-              <h2>İş akışına uygun özel yazılım geliştirme</h2>
+              <p class="eyebrow" data-i18n="services.eyebrow">Hizmetler</p>
+              <h2 data-i18n="services.title">İş akışına uygun özel yazılım geliştirme</h2>
             </div>
 
             <div class="service-grid">
               <article class="service-card reveal">
-                <h3>CRM sistemleri</h3>
-                <p>
+                <h3 data-i18n="services.crm.title">CRM sistemleri</h3>
+                <p data-i18n="services.crm.text">
                   Müşteri sürecini görünür kılan, satış takibini sadeleştiren
                   özel CRM çözümleri.
                 </p>
               </article>
               <article class="service-card reveal delay-1">
-                <h3>Randevu sistemleri</h3>
-                <p>
+                <h3 data-i18n="services.appointment.title">Randevu sistemleri</h3>
+                <p data-i18n="services.appointment.text">
                   Çakışma kontrolü, müşteri bağlantısı ve kolay kullanım odaklı
                   planlama panelleri.
                 </p>
               </article>
               <article class="service-card reveal delay-2">
-                <h3>Özel yazılım geliştirme</h3>
-                <p>
+                <h3 data-i18n="services.custom.title">Özel yazılım geliştirme</h3>
+                <p data-i18n="services.custom.text">
                   İşletmelerin çalışma biçimine göre tasarlanan hafif, hızlı ve
                   ölçeklenebilir sistemler.
                 </p>
@@ -266,18 +280,18 @@
         <section class="section about-section" id="about">
           <div class="container about-grid">
             <div class="section-heading reveal">
-              <p class="eyebrow">Hakkımda</p>
+              <p class="eyebrow" data-i18n="about.eyebrow">Hakkımda</p>
               <h2>
-                Yazılımı sade, işlevsel ve sürdürülebilir kurmayı önemsiyorum
+                <span data-i18n="about.title">Yazılımı sade, işlevsel ve sürdürülebilir kurmayı önemsiyorum</span>
               </h2>
-              <p>
+              <p data-i18n="about.text">
                 İşletmeler için müşteri takibi ve satış odaklı yazılım çözümleri
                 geliştiriyorum.
               </p>
             </div>
 
             <div class="about-card reveal delay-1">
-              <p>
+              <p data-i18n="about.cardText">
                 Kullanıcı deneyimi güçlü, performanslı ve gerçek kullanım
                 senaryolarına uygun web arayüzleri geliştirmeye odaklanıyorum.
                 Portfolyomda hem teknik yetkinliğimi hem de ürün bakış açımı
@@ -290,34 +304,36 @@
         <section class="section contact-section" id="contact">
           <div class="container contact-grid">
             <div class="section-heading reveal">
-              <p class="eyebrow">İletişim</p>
-              <h2>Projenizi birlikte netleştirelim</h2>
-              <p>
+              <p class="eyebrow" data-i18n="contact.eyebrow">İletişim</p>
+              <h2 data-i18n="contact.title">Projenizi birlikte netleştirelim</h2>
+              <p data-i18n="contact.text">
                 Kısa bir mesaj bırakın. İhtiyacınıza uygun sistem yapısını
                 beraber çıkaralım.
               </p>
             </div>
 
             <form class="contact-form reveal delay-1">
-              <label for="email">Email</label>
+              <label for="email" data-i18n="contact.emailLabel">Email</label>
               <input
                 id="email"
                 name="email"
                 type="email"
                 placeholder="ornek@mail.com"
+                data-i18n-placeholder="contact.emailPlaceholder"
                 required
               />
 
-              <label for="message">Mesaj</label>
+              <label for="message" data-i18n="contact.messageLabel">Mesaj</label>
               <textarea
                 id="message"
                 name="message"
                 rows="5"
                 placeholder="İhtiyacınızı kısaca yazın"
+                data-i18n-placeholder="contact.messagePlaceholder"
                 required
               ></textarea>
 
-              <button class="button button-primary button-submit" type="submit">
+              <button class="button button-primary button-submit" type="submit" data-i18n="contact.submit">
                 Gönder
               </button>
               <p class="form-note" id="form-note" aria-live="polite"></p>

@@ -98,6 +98,7 @@ textarea {
   display: flex;
   align-items: center;
   gap: 1.4rem;
+  margin-left: auto;
 }
 
 .nav-links a {
@@ -128,6 +129,36 @@ textarea {
   border-radius: 999px;
   background: var(--text);
   transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.language-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.28rem;
+  border: 1px solid rgba(16, 42, 52, 0.1);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.language-option {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.language-option.is-active {
+  background: linear-gradient(135deg, var(--secondary), var(--primary));
+  color: #fff;
 }
 
 .hero {
@@ -529,9 +560,15 @@ textarea {
     flex-wrap: wrap;
   }
 
+  .language-toggle {
+    order: 2;
+    margin-left: 0;
+  }
+
   .nav-toggle {
     display: block;
-    margin-left: auto;
+    margin-left: 0;
+    order: 3;
   }
 
   .nav-links {
@@ -540,6 +577,8 @@ textarea {
     flex-direction: column;
     align-items: flex-start;
     padding: 0.4rem 0 0.2rem;
+    order: 4;
+    margin-left: 0;
   }
 
   .nav-links.is-open {
