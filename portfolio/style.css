@@ -46,7 +46,7 @@ textarea {
 }
 
 .page-shell {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .container {
