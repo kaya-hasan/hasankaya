@@ -58,6 +58,11 @@ const translations = {
     "projects.inventory.feature1": "Stok takibi",
     "projects.inventory.feature2": "Ürün yönetimi",
     "projects.inventory.feature3": "CRUD işlemleri",
+    "projects.salefollowup.text":
+      "sale_followup, Odoo 18.0 üzerinde satış teklifleri için geliştirilen bir follow-up yönetim modülüdür. Modül; teklif bazlı takip alanları, otomatik durum hesaplama, günlük cron güncellemesi ve gelişmiş filtreleme yapısıyla satış ekiplerinin teklif süreçlerini daha düzenli yönetmesini sağlar.",
+    "projects.salefollowup.feature1": "Takip alanları",
+    "projects.salefollowup.feature2": "Otomatik durum hesaplama",
+    "projects.salefollowup.feature3": "Günlük cron güncellemesi",
     "services.eyebrow": "Hizmetler",
     "services.title": "İş akışına uygun özel yazılım geliştirme",
     "services.crm.title": "CRM sistemleri",
@@ -137,6 +142,11 @@ const translations = {
     "projects.inventory.feature1": "Stock tracking",
     "projects.inventory.feature2": "Product management",
     "projects.inventory.feature3": "CRUD operations",
+    "projects.salefollowup.text":
+      "sale_followup is a follow-up management module developed for sales quotations on Odoo 18.0. It enables sales teams to manage quotation processes more systematically with quotation-based tracking fields, automatic status calculation, daily cron updates, and advanced filtering capabilities.",
+    "projects.salefollowup.feature1": "Tracking fields",
+    "projects.salefollowup.feature2": "Automatic status calculation",
+    "projects.salefollowup.feature3": "Daily cron updates",
     "services.eyebrow": "Services",
     "services.title": "Custom software development for real business workflows",
     "services.crm.title": "CRM systems",
